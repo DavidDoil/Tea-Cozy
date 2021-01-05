@@ -1,0 +1,98 @@
+body {
+    font-family: Helvetica, sans-serif;
+    font-size: 22;
+    color: seashell;
+    background-color: black;
+    opacity: 0.7;
+    display: block;
+
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    height: 69px;
+    width: 100%;
+    border-bottom: 1px solid seashell;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: black;
+    clear: both;
+}
+
+body nav img {
+    height: 50px;
+    width: auto;
+    margin-left: 10px;
+}
+
+#navBar {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    gap: 0 10%;
+    flex-shrink: 1;
+    margin-right: 35px;
+}
+
+#navBar p {
+    text-decoration: underline;
+    /* background-color: slateblue; */
+    min-width: fit-content;
+}
+
+.header {
+    background-image: url(Tea-in-jar.jpg);
+    width: 1200px; 
+    height: 700px;
+    margin: auto;
+    background-size: cover;
+    /* overflow: hidden; */
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+}
+
+.mission {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    background-color: black;
+}
+
+.mission h2 {
+    text-transform: uppercase;
+}
+
+.tea h2, p {
+    font-weight: bold;
+    text-align: center;
+}
+
+.images {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+    margin: auto;
+}
+
+figure {
+    margin: 5px 10px;
+}
+
+figure img {
+    width: 300px;
+    height: 200px;
+}
+
+figcaption {
+    text-align: center;
+    font-weight: bold;
+    line-height: 2em;
+}
